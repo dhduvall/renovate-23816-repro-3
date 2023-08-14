@@ -18,5 +18,8 @@
         "commands": [
           "echo '# 2023' > Dockerfile",
         ],
+        "fileFilters": [
+          "*/**",
+        ],
     },
 }
