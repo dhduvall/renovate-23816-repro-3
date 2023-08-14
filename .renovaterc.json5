@@ -16,7 +16,7 @@
 
     "postUpgradeTasks": {
         "commands": [
-          "echo '# 2023' > Dockerfile",
+          "sh -c \"echo '# 2023' > Dockerfile\"",
         ],
         "fileFilters": [
           "*/**",
