@@ -13,14 +13,4 @@
     ignorePresets: [
         ":semanticPrefixFixDepsChoreOthers",
     ],
-
-    "postUpgradeTasks": {
-        "commands": [
-          "sh -c \"echo '# 2023' > Dockerfile\"",
-          "git status",
-        ],
-        "fileFilters": [
-          "**/*",
-        ],
-    },
 }
